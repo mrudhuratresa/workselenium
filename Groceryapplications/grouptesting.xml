@@ -1,0 +1,17 @@
+<suite name="GroceryApplication" parallel="tests" thread-count="2">
+	<test name="ChromeTest">
+		<groups>
+			<run>
+				<include name="smoke"></include>
+			</run>
+		</groups>
+		
+		
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="testscripts.LoginTest"></class>
+			
+
+		</classes>
+	</test>
+</suite>

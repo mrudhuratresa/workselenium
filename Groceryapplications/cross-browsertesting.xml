@@ -1,0 +1,28 @@
+<suite name="cross-browser testing" parallel="tests" thread-count="2">
+	
+	
+	<test thread-count="5" name="chromeTest">
+	<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+
+			<class name="testscripts.SubCategoryTest">
+				<methods>
+					<include
+						name="verifyableToSearchUsingSearchButton"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test thread-count="5" name="edge-test">
+	<parameter name="browser" value="Edge"></parameter>
+		<classes>
+
+			<class name="testscripts.CategoryTest">
+				<methods>
+					<include
+						name="verifyAddCategorywithValidData"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
