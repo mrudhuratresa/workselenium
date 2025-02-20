@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-myTestSuite" class="navigator-link">
+              <span class="suite-name border-passed">myTestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-myTestSuite" class="navigator-link ">
+                    <span>C:\Users\amal\git\Automation\Groceryapplications\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-myTestSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-myTestSuite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-myTestSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-myTestSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-myTestSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-myTestSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-myTestSuite" class="hide-methods passed suite-myTestSuite"> (hide)</a> <!-- hide-methods passed suite-myTestSuite -->
+                      <a href="#" panel-name="suite-myTestSuite" class="show-methods passed suite-myTestSuite"> (show)</a> <!-- show-methods passed suite-myTestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-myTestSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-myTestSuite" title="testscripts.CategoryTest" class="method navigator-link" hash-for-method="verifyAddCategorywithValidData">verifyAddCategorywithValidData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-myTestSuite" title="testscripts.SubCategoryTest" class="method navigator-link" hash-for-method="verifyAddNewSubcategorywithValidDetails">verifyAddNewSubcategorywithValidDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-myTestSuite" title="testscripts.CategoryTest" class="method navigator-link" hash-for-method="verifyStatusButton">verifyStatusButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-myTestSuite" title="testscripts.SubCategoryTest" class="method navigator-link" hash-for-method="verifyStatusChange">verifyStatusChange</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-myTestSuite" title="testscripts.LoginTest" class="method navigator-link" hash-for-method="verifyUserLoginWithInvalidUsernameAndInvalidPassword(welc, jhj)">verifyUserLoginWithInvalidUsernameAndInvalidPassword(welc, jhj)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-myTestSuite" title="testscripts.LoginTest" class="method navigator-link" hash-for-method="verifyUserLoginWithInvalidUsernameAndInvalidPassword(yam, hhgh)">verifyUserLoginWithInvalidUsernameAndInvalidPassword(yam, hhgh)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-myTestSuite" title="testscripts.LoginTest" class="method navigator-link" hash-for-method="verifyUserLoginWithInvalidUsernameAndInvalidPassword(hello, gvgh)">verifyUserLoginWithInvalidUsernameAndInvalidPassword(hello, gvgh)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-myTestSuite" title="testscripts.LoginTest" class="method navigator-link" hash-for-method="verifyUserLoginWithInvalidUsernameAndInvalidPassword(shena, hgh776)">verifyUserLoginWithInvalidUsernameAndInvalidPassword(shena, hgh776)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-myTestSuite" title="testscripts.LoginTest" class="method navigator-link" hash-for-method="verifyUserLoginWithInvalidUsernameAndValidPassword">verifyUserLoginWithInvalidUsernameAndValidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-myTestSuite" title="testscripts.LoginTest" class="method navigator-link" hash-for-method="verifyUserLoginWithValidCredentials">verifyUserLoginWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-myTestSuite" title="testscripts.LoginTest" class="method navigator-link" hash-for-method="verifyUserLoginWithValidUsernameAndInvalidPassword">verifyUserLoginWithValidUsernameAndInvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-myTestSuite" title="testscripts.CategoryTest" class="method navigator-link" hash-for-method="verifyUsercanSearchNonExistingCategory">verifyUsercanSearchNonExistingCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-myTestSuite" title="testscripts.SubCategoryTest" class="method navigator-link" hash-for-method="verifyUsercanSerachNonExistingSubCategory">verifyUsercanSerachNonExistingSubCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-myTestSuite" title="testscripts.CategoryTest" class="method navigator-link" hash-for-method="verifydeletecategory">verifydeletecategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-myTestSuite" title="testscripts.SubCategoryTest" class="method navigator-link" hash-for-method="verifydeletesubcategorybutton">verifydeletesubcategorybutton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-myTestSuite" title="testscripts.ManageContactTest" class="method navigator-link" hash-for-method="verifyeditManageContact">verifyeditManageContact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-myTestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-myTestSuite" class="panel myTestSuite">
+          <div class="suite-myTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testscripts.CategoryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddCategorywithValidData">
+                  </a> <!-- verifyAddCategorywithValidData -->
+                  <span class="method-name">verifyAddCategorywithValidData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyStatusButton">
+                  </a> <!-- verifyStatusButton -->
+                  <span class="method-name">verifyStatusButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUsercanSearchNonExistingCategory">
+                  </a> <!-- verifyUsercanSearchNonExistingCategory -->
+                  <span class="method-name">verifyUsercanSearchNonExistingCategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifydeletecategory">
+                  </a> <!-- verifydeletecategory -->
+                  <span class="method-name">verifydeletecategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-myTestSuite-class-passed -->
+          <div class="suite-myTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testscripts.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserLoginWithInvalidUsernameAndInvalidPassword(welc, jhj)">
+                  </a> <!-- verifyUserLoginWithInvalidUsernameAndInvalidPassword(welc, jhj) -->
+                  <span class="method-name">verifyUserLoginWithInvalidUsernameAndInvalidPassword</span>
+                  <span class="parameters">(welc,jhj)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserLoginWithInvalidUsernameAndInvalidPassword(yam, hhgh)">
+                  </a> <!-- verifyUserLoginWithInvalidUsernameAndInvalidPassword(yam, hhgh) -->
+                  <span class="method-name">verifyUserLoginWithInvalidUsernameAndInvalidPassword</span>
+                  <span class="parameters">(yam,hhgh)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserLoginWithInvalidUsernameAndInvalidPassword(hello, gvgh)">
+                  </a> <!-- verifyUserLoginWithInvalidUsernameAndInvalidPassword(hello, gvgh) -->
+                  <span class="method-name">verifyUserLoginWithInvalidUsernameAndInvalidPassword</span>
+                  <span class="parameters">(hello,gvgh)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserLoginWithInvalidUsernameAndInvalidPassword(shena, hgh776)">
+                  </a> <!-- verifyUserLoginWithInvalidUsernameAndInvalidPassword(shena, hgh776) -->
+                  <span class="method-name">verifyUserLoginWithInvalidUsernameAndInvalidPassword</span>
+                  <span class="parameters">(shena,hgh776)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserLoginWithInvalidUsernameAndValidPassword">
+                  </a> <!-- verifyUserLoginWithInvalidUsernameAndValidPassword -->
+                  <span class="method-name">verifyUserLoginWithInvalidUsernameAndValidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserLoginWithValidCredentials">
+                  </a> <!-- verifyUserLoginWithValidCredentials -->
+                  <span class="method-name">verifyUserLoginWithValidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserLoginWithValidUsernameAndInvalidPassword">
+                  </a> <!-- verifyUserLoginWithValidUsernameAndInvalidPassword -->
+                  <span class="method-name">verifyUserLoginWithValidUsernameAndInvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-myTestSuite-class-passed -->
+          <div class="suite-myTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testscripts.ManageContactTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyeditManageContact">
+                  </a> <!-- verifyeditManageContact -->
+                  <span class="method-name">verifyeditManageContact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-myTestSuite-class-passed -->
+          <div class="suite-myTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testscripts.SubCategoryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddNewSubcategorywithValidDetails">
+                  </a> <!-- verifyAddNewSubcategorywithValidDetails -->
+                  <span class="method-name">verifyAddNewSubcategorywithValidDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyStatusChange">
+                  </a> <!-- verifyStatusChange -->
+                  <span class="method-name">verifyStatusChange</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUsercanSerachNonExistingSubCategory">
+                  </a> <!-- verifyUsercanSerachNonExistingSubCategory -->
+                  <span class="method-name">verifyUsercanSerachNonExistingSubCategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifydeletesubcategorybutton">
+                  </a> <!-- verifydeletesubcategorybutton -->
+                  <span class="method-name">verifydeletesubcategorybutton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-myTestSuite-class-passed -->
+        </div> <!-- panel myTestSuite -->
+        <div panel-name="test-xml-myTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\amal\git\Automation\Groceryapplications\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;myTestSuite&quot; verbose=&quot;0&quot;&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;myTest&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testscripts.LoginTest&quot;/&gt;
+      &lt;class name=&quot;testscripts.SubCategoryTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifyUsercanSerachNonExistingSubCategory&quot;/&gt;
+          &lt;include name=&quot;verifydeletesubcategorybutton&quot;/&gt;
+          &lt;include name=&quot;verifyAddNewSubcategorywithValidDetails&quot;/&gt;
+          &lt;include name=&quot;verifyStatusChange&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testscripts.SubCategoryTest --&gt;
+      &lt;class name=&quot;testscripts.CategoryTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifyAddCategorywithValidData&quot;/&gt;
+          &lt;include name=&quot;verifyUsercanSearchNonExistingCategory&quot;/&gt;
+          &lt;include name=&quot;verifydeletecategory&quot;/&gt;
+          &lt;include name=&quot;verifyStatusButton&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testscripts.CategoryTest --&gt;
+      &lt;class name=&quot;testscripts.ManageContactTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifyeditManageContact&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testscripts.ManageContactTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- myTest --&gt;
+&lt;/suite&gt; &lt;!-- myTestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-myTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for myTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">myTest (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-myTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for myTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyUserLoginWithInvalidUsernameAndValidPassword</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyUserLoginWithValidUsernameAndInvalidPassword</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-myTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for myTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_myTestSuite');
+function tableData_myTestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyAddNewSubcategorywithValidDetails')
+data.setCell(0, 2, 'testscripts.SubCategoryTest')
+data.setCell(0, 3, 27731);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifydeletecategory')
+data.setCell(1, 2, 'testscripts.CategoryTest')
+data.setCell(1, 3, 18099);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyAddCategorywithValidData')
+data.setCell(2, 2, 'testscripts.CategoryTest')
+data.setCell(2, 3, 16682);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyUsercanSearchNonExistingCategory')
+data.setCell(3, 2, 'testscripts.CategoryTest')
+data.setCell(3, 3, 13404);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyUsercanSerachNonExistingSubCategory')
+data.setCell(4, 2, 'testscripts.SubCategoryTest')
+data.setCell(4, 3, 9007);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyStatusChange')
+data.setCell(5, 2, 'testscripts.SubCategoryTest')
+data.setCell(5, 3, 8124);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyeditManageContact')
+data.setCell(6, 2, 'testscripts.ManageContactTest')
+data.setCell(6, 3, 7527);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyUserLoginWithValidUsernameAndInvalidPassword')
+data.setCell(7, 2, 'testscripts.LoginTest')
+data.setCell(7, 3, 4503);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifydeletesubcategorybutton')
+data.setCell(8, 2, 'testscripts.SubCategoryTest')
+data.setCell(8, 3, 4400);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyUserLoginWithValidCredentials')
+data.setCell(9, 2, 'testscripts.LoginTest')
+data.setCell(9, 3, 3932);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyStatusButton')
+data.setCell(10, 2, 'testscripts.CategoryTest')
+data.setCell(10, 3, 3545);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyUserLoginWithInvalidUsernameAndInvalidPassword')
+data.setCell(11, 2, 'testscripts.LoginTest')
+data.setCell(11, 3, 2132);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyUserLoginWithInvalidUsernameAndInvalidPassword')
+data.setCell(12, 2, 'testscripts.LoginTest')
+data.setCell(12, 3, 1890);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyUserLoginWithInvalidUsernameAndValidPassword')
+data.setCell(13, 2, 'testscripts.LoginTest')
+data.setCell(13, 3, 1429);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyUserLoginWithInvalidUsernameAndInvalidPassword')
+data.setCell(14, 2, 'testscripts.LoginTest')
+data.setCell(14, 3, 1294);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyUserLoginWithInvalidUsernameAndInvalidPassword')
+data.setCell(15, 2, 'testscripts.LoginTest')
+data.setCell(15, 3, 1255);
+window.suiteTableData['myTestSuite']= { tableData: data, tableDiv: 'times-div-myTestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-myTestSuite">
+              </div> <!-- times-div-myTestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-myTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for myTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-myTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-myTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testscripts.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialisebrowser(Chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUserLoginWithInvalidUsernameAndInvalidPassword(shena, hgh776)</span>
+                <span class="method-start">6574 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit([TestResult name=verifyUserLoginWithInvalidUsernameAndInvalidPassword status=SUCCESS method=LoginTes...)</span>
+                <span class="method-start">8710 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialisebrowser(Chrome)</span>
+                <span class="method-start">8712 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUserLoginWithInvalidUsernameAndInvalidPassword(hello, gvgh)</span>
+                <span class="method-start">14122 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit([TestResult name=verifyUserLoginWithInvalidUsernameAndInvalidPassword status=SUCCESS method=LoginTes...)</span>
+                <span class="method-start">16013 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialisebrowser(Chrome)</span>
+                <span class="method-start">16014 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUserLoginWithInvalidUsernameAndInvalidPassword(welc, jhj)</span>
+                <span class="method-start">21112 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit([TestResult name=verifyUserLoginWithInvalidUsernameAndInvalidPassword status=SUCCESS method=LoginTes...)</span>
+                <span class="method-start">22368 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialisebrowser(Chrome)</span>
+                <span class="method-start">22369 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUserLoginWithInvalidUsernameAndInvalidPassword(yam, hhgh)</span>
+                <span class="method-start">26743 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit([TestResult name=verifyUserLoginWithInvalidUsernameAndInvalidPassword status=SUCCESS method=LoginTes...)</span>
+                <span class="method-start">28037 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialisebrowser(Chrome)</span>
+                <span class="method-start">28042 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUserLoginWithInvalidUsernameAndValidPassword</span>
+                <span class="method-start">37727 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit([TestResult name=verifyUserLoginWithInvalidUsernameAndValidPassword status=SUCCESS method=LoginTest....)</span>
+                <span class="method-start">39157 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialisebrowser(Chrome)</span>
+                <span class="method-start">39165 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUserLoginWithValidCredentials</span>
+                <span class="method-start">44633 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit([TestResult name=verifyUserLoginWithValidCredentials status=SUCCESS method=LoginTest.verifyUserLogin...)</span>
+                <span class="method-start">48567 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialisebrowser(Chrome)</span>
+                <span class="method-start">48569 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUserLoginWithValidUsernameAndInvalidPassword</span>
+                <span class="method-start">57947 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit([TestResult name=verifyUserLoginWithValidUsernameAndInvalidPassword status=SUCCESS method=LoginTest....)</span>
+                <span class="method-start">62451 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testscripts.SubCategoryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialisebrowser(Chrome)</span>
+                <span class="method-start">62460 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUsercanSerachNonExistingSubCategory</span>
+                <span class="method-start">77908 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit([TestResult name=verifyUsercanSerachNonExistingSubCategory status=SUCCESS method=SubCategoryTest.ver...)</span>
+                <span class="method-start">86915 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialisebrowser(Chrome)</span>
+                <span class="method-start">86916 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifydeletesubcategorybutton</span>
+                <span class="method-start">95464 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit([TestResult name=verifydeletesubcategorybutton status=SUCCESS method=SubCategoryTest.verifydeletesub...)</span>
+                <span class="method-start">99865 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialisebrowser(Chrome)</span>
+                <span class="method-start">99874 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAddNewSubcategorywithValidDetails</span>
+                <span class="method-start">106038 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit([TestResult name=verifyAddNewSubcategorywithValidDetails status=SUCCESS method=SubCategoryTest.verif...)</span>
+                <span class="method-start">133771 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialisebrowser(Chrome)</span>
+                <span class="method-start">133774 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyStatusChange</span>
+                <span class="method-start">145648 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit([TestResult name=verifyStatusChange status=SUCCESS method=SubCategoryTest.verifyStatusChange()[pri:0...)</span>
+                <span class="method-start">153909 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testscripts.CategoryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialisebrowser(Chrome)</span>
+                <span class="method-start">154507 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAddCategorywithValidData</span>
+                <span class="method-start">167841 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit([TestResult name=verifyAddCategorywithValidData status=SUCCESS method=CategoryTest.verifyAddCategory...)</span>
+                <span class="method-start">184527 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialisebrowser(Chrome)</span>
+                <span class="method-start">184530 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUsercanSearchNonExistingCategory</span>
+                <span class="method-start">224953 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit([TestResult name=verifyUsercanSearchNonExistingCategory status=SUCCESS method=CategoryTest.verifyUse...)</span>
+                <span class="method-start">238367 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialisebrowser(Chrome)</span>
+                <span class="method-start">238376 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifydeletecategory</span>
+                <span class="method-start">248998 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit([TestResult name=verifydeletecategory status=SUCCESS method=CategoryTest.verifydeletecategory()[pri:...)</span>
+                <span class="method-start">267099 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialisebrowser(Chrome)</span>
+                <span class="method-start">267110 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyStatusButton</span>
+                <span class="method-start">274762 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit([TestResult name=verifyStatusButton status=SUCCESS method=CategoryTest.verifyStatusButton()[pri:0, i...)</span>
+                <span class="method-start">278308 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testscripts.ManageContactTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialisebrowser(Chrome)</span>
+                <span class="method-start">278315 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyeditManageContact</span>
+                <span class="method-start">283633 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverQuit([TestResult name=verifyeditManageContact status=SUCCESS method=ManageContactTest.verifyeditManageCon...)</span>
+                <span class="method-start">291161 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
